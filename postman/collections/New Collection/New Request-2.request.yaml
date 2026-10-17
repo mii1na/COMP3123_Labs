@@ -1,5 +1,0 @@
-$kind: http-request
-name: New Request
-url: http://localhost:8081/api/notes/6ad39a95a778ff5efcef9bba
-method: GET
-order: 3000
