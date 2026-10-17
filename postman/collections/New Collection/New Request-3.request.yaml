@@ -1,0 +1,18 @@
+$kind: http-request
+name: New Request
+url: http://localhost:8081/api/notes/6ad39a95a778ff5efcef9bba
+method: PUT
+body:
+  type: json
+  content: |
+    
+    {
+      "content": {
+        "noteTitle": "Updated Note Title",
+        "noteDescription": "Updated Note Description",
+        "priority": "LOW",
+        "dateAdded": "17/Oct/2026",
+        "dateUpdated": "17/Oct/2026"
+      }
+    }
+order: 4000

@@ -1,0 +1,10 @@
+$kind: http-request
+name: New Request
+url: http://localhost:8081/api/notes
+method: POST
+body:
+  type: json
+  content: |
+    
+    {}
+order: 7000
